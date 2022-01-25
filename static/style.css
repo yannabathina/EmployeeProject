@@ -1,0 +1,48 @@
+.container{
+     background-size:cover;
+     height:88vh;
+     width:60vw;
+     background-color:#006400;
+     overflow:auto;
+     margin-left:20%;
+}
+.title{
+     color:#ffffff;
+     font-family:"Roboto";
+     padding-top:20px;
+}
+tr{
+     background-color:#f8f8f8;
+     border:1px solid #ddd;
+}
+table{
+    border:1px solid #ccc;
+    border-collapse:collapse;
+    table-layout:fixed;
+    width:80%;
+    max-width:100%;
+}
+.insert{
+    background-color:#FF8C00;
+    border-radius:10px;
+    padding:10px;
+}
+
+.insert-record{
+     color:white;
+}
+th{
+     background-color:yellow;
+     text-align:left;
+}
+.update{
+     background-color:blue;
+     border-radius:10px;
+}
+.delete{
+     background-color:red;
+     border-radius:10px;
+}
+a{
+    color:#ffffff;
+}

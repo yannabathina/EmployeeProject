@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div align="center">
+    <form method="post">
+        {%csrf_token%}
+        <h1>Update Employee Information</h1><br>
+    eno:<input type="text" name="eno" value="{{employee.eno}}"><br>
+    ename:<input type="text" name="ename" value="{{employee.ename}}"><br>
+    esal:<input type="text" name="esal" value="{{employee.esal}}"><br>
+    eaddr:<input type="text" name="eaddr" value="{{employee.eaddr}}"><br>
+    <input type="submit" name="" value="update record">
+    </form>
+</div>
+</body>
+</html>
